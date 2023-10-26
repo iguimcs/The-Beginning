@@ -62,15 +62,15 @@ img {
   transform: translateY(-50%);
   z-index: 1;
 
-  animation: slide-out 0.4s ;
+  animation: slide-out 0.4s;
 }
 
-#switch button:hover{
+#switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
 
 .light #switch button {
-  animation: slide-in 0.4s forwards ;
+  animation: slide-in 0.4s forwards;
 }
 
 #switch span {
@@ -172,19 +172,20 @@ footer {
   }
 }
 
-@keyframes slide-in{
-  from{left: 0;
+@keyframes slide-in {
+  from {
+    left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
 
-@keyframes slide-out{
-  from{
+@keyframes slide-out {
+  from {
     left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
